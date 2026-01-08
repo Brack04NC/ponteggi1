@@ -290,7 +290,10 @@ export default function LandingPage() {
 
             <div className="w-full lg:w-1/2">
               <div className="bg-white p-8 md:p-10 rounded-2xl shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] border border-gray-100">
-                <form className="space-y-6">
+                <form className="space-y-6" onSubmit={(e) => {
+                  e.preventDefault();
+                  alert("Grazie per la richiesta! Ti contatteremo presto.");
+                }}>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <label htmlFor="name" className="text-sm font-semibold text-gray-700">Nome e Cognome</label>
