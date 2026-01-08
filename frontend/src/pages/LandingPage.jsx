@@ -13,10 +13,11 @@ import {
   Truck, 
   Hammer, 
   ShieldCheck, 
-  Users, 
-  Clock, 
   CheckCircle2,
-  ArrowRight
+  ArrowRight,
+  MapPin,
+  Phone,
+  Mail
 } from "lucide-react";
 
 // Mock data
